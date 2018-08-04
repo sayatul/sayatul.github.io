@@ -1,0 +1,168 @@
+---
+---
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.data.cv.person.name }}'s CV</title>
+  <meta name="author" content="{{ site.data.cv.name }}" />
+  <meta name="description" content="Atul Yadav (Software Enginner)" />
+  <meta name="keywords" content="Python Developer, Python Enginner, Django Developer, Flask Developer, AWS Architect, NoSQL, SQL, Software Engineer, Software Developer">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/cv.css" rel="stylesheet">
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" media="all" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'
+
+</head>
+
+<body>
+  <div class="container">
+    
+    <!-- Header -->
+    <div class="row header bg-gray">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+        <img src="{{ site.data.cv.person.depiction }}" height="130px" width="130px" alt="{{ site.data.cv.person.name }}'s Photo" class="img-rounded">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+        <h1 class="name">{{ site.data.cv.person.name }}</h1>
+        <span class="profession">{{ site.data.cv.person.profession }}</span>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <ul class="list-unstyled">
+          {% if site.data.cv.person.location %}
+          <li><i class="fa fa-map-marker"></i> {{site.data.cv.person.location}}</li>
+          {% endif%}
+          {% if site.data.cv.person.citizenship %}
+          <li><i class="fa fa-flag-o"></i> {{site.data.cv.person.citizenship}}</li>
+          {% endif%}
+          {% if site.data.cv.person.email %}
+          <li>
+            <i class="fa fa-envelope-o"></i>
+            <a href="mailto: {{ site.data.cv.person.email }}">{{site.data.cv.person.email }}</a>
+          </li>
+          {% endif%}
+          {% if site.data.cv.person.site %}
+          <li>
+            <i class="fa fa-laptop"></i>
+            <a href="http://{{ site.data.cv.person.site }}">{{ site.data.cv.person.site }}</a>
+          </li>
+          {% endif%}
+          {% if site.data.cv.person.phone %}
+          <li><i class="fa fa-phone"></i> {{site.data.cv.person.phone}}</li>
+          {% endif%}
+          {% if site.data.cv.person.github %}
+          <li>
+            <i class="fa fa-github"></i>
+            <a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a>
+          </li>
+          {% endif%}
+          {% if site.data.cv.person.stackoverflow %}
+          <li>
+            <i class="fa fa-stack-overflow"></i>
+            <a href="http://stackoverflow.com/users/6507549{{site.data.cv.person.stackoverflow}}">{{site.data.cv.person.stackoverflow}}</a>
+          </li>
+          {% endif%}
+          {% if site.data.cv.person.linkedin %}
+          <li>
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">{{site.data.cv.person.linkedin}}</a>
+          </li>
+          {% endif%}
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="row section section-border pagebreakishere">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <h2>Skills</h2>
+        {% for item in site.data.cv.technicalSkills %}
+        <span class="label label-info">{{ item.name }}</span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="row  section section-border">
+      
+      <!-- Career -->
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h2 class="text-center">Career</h2>
+        {% for item in site.data.cv.career %}
+        <div class="jd">
+          <div class="row">
+            <div class="col-xs-12">
+              <h4><b>{{ item.position }}</b></h4>
+              <h5>
+                <b>{{ item.company }}</b> <i>({{ item.location }})</i>
+                <br/>
+                {{ item.dates }}
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      
+      <!-- Education -->
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h2 class="text-center">Education</h2>
+        {% for item in site.data.cv.education %}
+        <div class="jd">
+          <div class="row">
+            <div class="col-xs-12">
+              <h4><b><a href="{{item.link}}">{{ item.name }}</a></b></h4>
+              <h5>
+                <i class="fa fa-graduation-cap"></i> {{ item.degree }}<br/>
+                {{item.dates}} <i>({{item.location}})</i>
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+    
+    <!--
+    <div class="row  section section-border">
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+        <h2>Side Projects</h2>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+        {% for item in site.data.cv.sideProjects %}
+        <div class="row side-project">
+          <div class="col-xs-5">
+            <h4>
+            {% if item.type == 'github' %}
+                <i class="fa fa-github"></i>
+              {% elsif item.type == 'site' %}
+                <i class="fa fa-globe"></i>
+              {% endif %}
+              <a href="{{item.link}}">{{item.name}}</a>
+            </h4>
+            <h5>{{item.langs}}</h5>
+          </div>
+          <div class="col-xs-7">{{item.description}}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    -->
+  </div>
+</body>
+</html>

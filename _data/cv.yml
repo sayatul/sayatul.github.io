@@ -1,0 +1,82 @@
+url: 
+projectUrl: 
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Atul Yadav
+  depiction: gravatar.png
+  profession: Software Engineer
+  location: Bangalore
+  citizenship: IN
+  email: 
+  site: http://sayatul.com
+  phone: 
+  github: /sayatul
+  stackoverflow: /atul-yadav
+  linkedin: /sayatul
+
+career:
+ - position: Software Developer
+   company: Fulfil.IO - Next Generation ERP
+   location: Bangalore, KA_IN
+   dates: May 2018 - current
+   summary:
+
+ - position: Full Stack Developer
+   company: Exol Lubricants
+   location: Jaipur, RJ_IN
+   dates: Jan 2017 - April 2018
+   summary:
+
+ - position: Python Development Intern
+   company: AP2V Solution
+   location: Gurgaon, HR_IN
+   dates: June 2016 - August 2016
+   summary:
+      
+ - position: Operations Intern
+   company: Haptik Inc.
+   location: Mumbai, MH_IN
+   dates: June 2015 - August 2015
+   summary:
+   # accomplishments:
+    # - accomplishment:
+
+technicalSkills:
+   - name: Python 
+   - name: Flask 
+   - name: Django 
+   - name: IoT   
+   - name: Micropython 
+   - name: AWS
+   - name: NoSQL
+   - name: GIT
+   - name: Bootstrap  
+   - name: Golang
+   - name: SQL
+
+sideProjects:
+  - name: 
+    description:
+    link: 
+    type: # github
+    langs: # HTML/CSS/Bootstrap
+
+education:
+  - name: Maharshi Dayanand University
+    degree: Bachelor of Technology (Computer Science & Engineering)
+    location: Rothak, HR_IN
+    dates: 2013 – 2017
+    link: http://www.mdurohtak.ac.in
+
+  - name: Raffles International School
+    degree: High School (Non-Medical)
+    location: Behror, RJ_IN
+    dates: 2011 – 2013
+    link: http://www.rafflesindia.com
+
+  - name: DAV Public School, New Shimla
+    degree: High School
+    location: Shimla, HP_IN
+    dates: 2008 – 2011
+    link: http://davns.org
