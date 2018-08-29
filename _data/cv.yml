@@ -60,7 +60,7 @@ sideProjects:
     description: Controling Lights, AC's other stuff using various microcontrollers and sensors
     link: 
     type: # github
-    langs: Python, 
+    langs: Python 
 
 education:
   - name: Indian Institute of Science
