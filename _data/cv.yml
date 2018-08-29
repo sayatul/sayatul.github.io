@@ -56,13 +56,19 @@ technicalSkills:
    - name: SQL
 
 sideProjects:
-  - name: 
-    description:
+  - name: Home Automation 
+    description: Controling Lights, AC's other stuff using various microcontrollers and sensors
     link: 
     type: # github
-    langs: # HTML/CSS/Bootstrap
+    langs: Python, 
 
 education:
+  - name: Indian Institute of Science
+    degree: IoT for Smart Cities and Smart Campuses
+    location: Bengaluru, KA_IN
+    dates: 2018
+    link: https://www.iisc.ac.in/
+
   - name: Maharshi Dayanand University
     degree: Bachelor of Technology (Computer Science & Engineering)
     location: Rothak, HR_IN
