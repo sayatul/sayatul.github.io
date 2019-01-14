@@ -64,9 +64,15 @@ sideProjects:
 
 education:
   - name: Indian Institute of Science
+    degree: Computational Machine Learning
+    location: Bengaluru, KA_IN
+    dates: Jan 2019 - Present
+    link: https://www.iisc.ac.in/
+
+  - name: Indian Institute of Science
     degree: IoT for Smart Cities and Smart Campuses
     location: Bengaluru, KA_IN
-    dates: 2018
+    dates: May - June (2018)
     link: https://www.iisc.ac.in/
 
   - name: Maharshi Dayanand University
