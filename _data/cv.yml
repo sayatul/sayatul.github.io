@@ -54,12 +54,12 @@ technicalSkills:
    - name: Django
    - name: IoT
    - name: Micropython
+   - name: GCP
    - name: AWS
+   - name: K8s
    - name: NoSQL
-   - name: GIT
-   - name: Bootstrap
-   - name: Golang
    - name: SQL
+   - name: Bootstrap
 
 sideProjects:
   - name: Home Automation
