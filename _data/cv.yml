@@ -1,5 +1,5 @@
-url: 
-projectUrl: 
+url:
+projectUrl:
 
 # leave blank fields which you don't want to be displayed
 person:
@@ -8,18 +8,24 @@ person:
   profession: Software Engineer
   location: Bangalore
   citizenship: IN
-  email: 
+  email:
   site: https://sayatul.com
-  phone: 
+  phone:
   github: /sayatul
   stackoverflow: /atul-yadav
   linkedin: /sayatul
 
 career:
- - position: Software Developer
+ - position: Intermediate Backend Engineer
    company: Fulfil.IO - Next Generation ERP
    location: Bangalore, KA_IN
-   dates: May 2018 - current
+   dates: June 2020 - current
+   summary:
+
+ - position: Standard Backend Engineer
+   company: Fulfil.IO - Next Generation ERP
+   location: Bangalore, KA_IN
+   dates: May 2018 - June 2020
    summary:
 
  - position: Full Stack Developer
@@ -33,7 +39,7 @@ career:
    location: Gurgaon, HR_IN
    dates: June 2016 - August 2016
    summary:
-      
+
  - position: Operations Intern
    company: Haptik Inc.
    location: Mumbai, MH_IN
@@ -43,30 +49,30 @@ career:
     # - accomplishment:
 
 technicalSkills:
-   - name: Python 
-   - name: Flask 
-   - name: Django 
-   - name: IoT   
-   - name: Micropython 
+   - name: Python
+   - name: Flask
+   - name: Django
+   - name: IoT
+   - name: Micropython
    - name: AWS
    - name: NoSQL
    - name: GIT
-   - name: Bootstrap  
+   - name: Bootstrap
    - name: Golang
    - name: SQL
 
 sideProjects:
-  - name: Home Automation 
+  - name: Home Automation
     description: Controling Lights, AC's other stuff using various microcontrollers and sensors
-    link: 
+    link:
     type: # github
-    langs: Python 
+    langs: Python
 
 education:
   - name: Indian Institute of Science
     degree: Computational Machine Learning
     location: Bengaluru, KA_IN
-    dates: Jan 2019 - Present
+    dates: Jan 2019 - May 2019
     link: https://www.iisc.ac.in/
 
   - name: Indian Institute of Science
