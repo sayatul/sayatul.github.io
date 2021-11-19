@@ -16,10 +16,16 @@ person:
   linkedin: /sayatul
 
 career:
+ - position: Senior Backend Engineer
+   company: Fulfil.IO - Next Generation ERP
+   location: Bangalore, KA_IN
+   dates: July 2021 - current
+   summary:
+   
  - position: Intermediate Backend Engineer
    company: Fulfil.IO - Next Generation ERP
    location: Bangalore, KA_IN
-   dates: June 2020 - current
+   dates: June 2020 - July 2021
    summary:
 
  - position: Standard Backend Engineer
@@ -55,10 +61,10 @@ technicalSkills:
    - name: IoT
    - name: Micropython
    - name: GCP
+   - name: K8s   
    - name: AWS
-   - name: K8s
-   - name: NoSQL
    - name: SQL
+   - name: NoSQL   
    - name: Bootstrap
 
 sideProjects:
