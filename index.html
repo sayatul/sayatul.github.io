@@ -135,6 +135,24 @@
         {% endfor %}
       </div>
 
+      <!-- Licenses & Certifications -->
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h2 class="text-center">Licenses & Certifications</h2>
+        {% for item in site.data.cv.lnc %}
+        <div class="jd">
+          <div class="row">
+            <div class="col-xs-12">
+              <h4><b><a href="{{item.link}}">{{ item.name }}</a></b></h4>
+              <h5>
+                <i class="fa fa-graduation-cap"></i> {{ item.org }}<br/>
+                {{item.dates}}
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>      
+      
     </div>
     
     <div class="row  section section-border">
