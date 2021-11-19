@@ -104,3 +104,10 @@ education:
     location: Shimla, HP_IN
     dates: 2008 – 2011
     link: http://davns.org
+    
+lnc:
+  - name: Deploy to Kubernetes in Google Cloud
+    org: Qwiklabs
+    dates: May 2021
+    link: https://www.qwiklabs.com/public_profiles/c3557cc2-ddc4-4b06-86f8-6674395d3f3a   
+    
